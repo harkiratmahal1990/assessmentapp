@@ -1,0 +1,19 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.assessment.intelliment.harkirat.androidassessmentapp.Fragments.MyFragment">
+
+
+    <TextView
+        android:id="@+id/fragment_name_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/fragment_a"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:background="@drawable/layout_backgroud"
+        />
+
+</FrameLayout>
